@@ -1,10 +1,10 @@
 body {
-	width: 210mm;
+	width: 208mm;
 	height: 297mm;
 }
 
 main {
-	width: 210mm;
+	width: 208mm;
 	height: 297mm;
 	display: grid;
 	grid-template-columns: repeat(8,1fr);
@@ -15,12 +15,10 @@ main {
 
 article {
 	border: 1px solid #ddd;
-	width: 100%;
+	width: 25.4mm;
 	height: 14mm;
 	background-image: url("./assets/img/@donutsparadise.png");
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: center;
 }
-
-297/20
