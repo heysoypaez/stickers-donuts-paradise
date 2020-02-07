@@ -14,10 +14,15 @@ main {
 }
 
 article {
-	border: 1px solid #ddd;
+	border: 0.2mm solid #ddd;
 	width: 25.4mm;
 	height: 14mm;
-	background-image: url("./assets/img/@donutsparadise.png");
+	/*Images
+	----------------
+	@donutsparadise.png
+	1.png
+	*/
+	background-image: url("./assets/img/1.png");
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: center;
