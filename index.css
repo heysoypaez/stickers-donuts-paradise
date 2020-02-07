@@ -10,8 +10,12 @@ main {
 
 article {
 	border: 1px solid black;
-	width: 25mm;
+	width: 24mm;
 	height: 13.5mm;
+	background-image: url("./assets/img/@donutsparadise.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
 }
 
 297/20
