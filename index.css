@@ -1,29 +1,33 @@
 body {
-	width: 208mm;
-	height: 297mm;
+	width: 20.8cm;
+	height: 100%;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
 }
 
 main {
-	width: 208mm;
-	height: 297mm;
+	width: 20.8cm;
+	height: 29.5cm;
 	display: grid;
-	grid-template-columns: repeat(8,1fr);
-	grid-template-rows: repeat(40,1fr);
+	grid-template-columns: repeat(5,1fr);
+	grid-template-rows: repeat(11,1fr);
 	justify-items: stretch;
 	grid-gap: 0 0;
 }
 
 article {
-	border: 0.2mm solid #ddd;
-	width: 25.4mm;
-	height: 14mm;
+	border: 0.2mm solid black;
+	width: 4.1cm;
+	height: 2.6cm;
 	/*Images
 	----------------
 	@donutsparadise.png
 	1.png
 	*/
-	background-image: url("./assets/img/1.png");
+	background-image: url("./assets/img/1.png");*/
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: center;
+	z-index: 100;
 }
