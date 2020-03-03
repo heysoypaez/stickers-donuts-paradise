@@ -9,10 +9,12 @@ const products = `
 `;
 
 const defaultValue = 7
-const value = prompt(`¿Qué quieres imprimir? ${products}`) || defaultValue
+const value = /*prompt(`¿Qué quieres imprimir? ${products}`) ||*/ defaultValue
 const articles = document.getElementsByTagName("article");
 const articlesArray = [...articles]
 
+/*
 articlesArray.map((article) => {
 	article.style.backgroundImage = `url("./assets/img/${value}.png")`;
 })
+*/
