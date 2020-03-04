@@ -51,8 +51,10 @@ article > img {
 
 article > small {
 	font-weight: bold;
+	font-size: 10px;
 	margin: 0;
 	padding: 2% 0;
+	line-height: 1;
 }
 
 article > section {
@@ -69,4 +71,12 @@ article > section > p {
 article > section > img {
 	width: 3mm;
 	height: 3mm;
+}
+
+.item__slogan {
+	font-size: 5px;
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+	font-weight: lighter;
+	letter-spacing: 0.8px;
 }
