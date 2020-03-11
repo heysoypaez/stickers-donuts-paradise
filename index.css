@@ -3,7 +3,7 @@
 	padding: 0;
 }
 body {
-	width: 20.8cm;
+	width: 21cm;
 	height: 100%;
 	overflow: hidden;
 	margin: 0;
@@ -11,7 +11,7 @@ body {
 }
 
 main {
-	width: 20.8cm;
+	width: 21cm;
 	height: 29.5cm;
 	display: grid;
 	grid-template-columns: repeat(8,1fr);
@@ -21,8 +21,8 @@ main {
 }
 
 article {
-	border: 0.2mm solid black;
-	width: 2.6cm;
+	border: 0.1mm solid black;
+	width: 2.5cm;
 	height: 2.6cm;
 	/*Images
 	----------------
