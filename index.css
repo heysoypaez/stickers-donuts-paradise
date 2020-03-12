@@ -8,27 +8,25 @@ body {
 	overflow: hidden;
 	margin: 0;
 	padding: 0;
+	border: 0.1mm solid red;
 }
 
 main {
-	width: 21cm;
+	width: 20.8cm;
 	height: 29.5cm;
 	display: grid;
 	grid-template-columns: repeat(8,1fr);
 	grid-template-rows: repeat(11,1fr);
 	justify-items: stretch;
+	justify-content: center;
 	grid-gap: 0 0;
+	padding: 0 1mm;
 }
 
 article {
 	border: 0.1mm solid black;
 	width: 2.5cm;
-	height: 2.6cm;
-	/*Images
-	----------------
-	@donutsparadise.png
-	1.png
-	*/
+	height: 2.5cm;
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: center;
@@ -51,7 +49,7 @@ article > img {
 
 article > small {
 	font-weight: bold;
-	font-size: 10px;
+	font-size: 9px;
 	margin: 0;
 	padding: 2% 0;
 	line-height: 1;
